@@ -1,4 +1,13 @@
 import './App.scss';
+import { Brand, CTA, Navbar } from './components';
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possiblity,
+  WhatGPT3,
+} from './containers';
 
 const App = () => {
   return (
