@@ -1,4 +1,3 @@
-import './App.scss';
 import { Brand, CTA, Navbar } from './components';
 import {
   Blog,
@@ -8,11 +7,22 @@ import {
   Possiblity,
   WhatGPT3,
 } from './containers';
+import './App.scss';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello, world!</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possiblity />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 };
