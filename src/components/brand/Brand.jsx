@@ -2,23 +2,41 @@ import { atlassian, dropbox, google, shopify, slack } from './imports';
 import './brand.scss';
 
 const Brand = () => {
+  const brands = [
+    {
+      id: 1,
+      src: google,
+      alt: 'Google',
+    },
+    {
+      id: 2,
+      src: slack,
+      alt: 'Slack',
+    },
+    {
+      id: 3,
+      src: atlassian,
+      alt: 'Atlassian',
+    },
+    {
+      id: 4,
+      src: dropbox,
+      alt: 'Dropbox',
+    },
+    {
+      id: 5,
+      src: shopify,
+      alt: 'Shopify',
+    },
+  ];
+
   return (
     <div className="gpt3__brand section__padding">
-      <div>
-        <img src={google} alt="google" />
-      </div>
-      <div>
-        <img src={slack} alt="slack" />
-      </div>
-      <div>
-        <img src={atlassian} alt="atlassian" />
-      </div>
-      <div>
-        <img src={dropbox} alt="dropbox" />
-      </div>
-      <div>
-        <img src={shopify} alt="shopify" />
-      </div>
+      {brands.map(({ id, src, alt }) => (
+        <div key={id}>
+          <img src={src} alt={alt} />
+        </div>
+      ))}
     </div>
   );
 };
