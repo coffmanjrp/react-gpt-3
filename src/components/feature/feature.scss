@@ -2,19 +2,21 @@
   &__features-container {
     &__feature {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;
       margin: 1rem;
+      width: 100%;
       &-title {
         flex: 1;
         margin-right: 2rem;
         max-width: 180px;
         h1 {
+          margin-bottom: 1rem;
           font-family: var(--font-family);
           font-weight: 800;
-          font-size: 1.5rem;
-          line-height: 4.6875rem;
+          font-size: 1.125rem;
+          line-height: 1.5rem;
           letter-spacing: -0.04em;
           color: #fff;
         }

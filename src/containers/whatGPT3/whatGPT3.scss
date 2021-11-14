@@ -83,6 +83,24 @@
       flex-direction: row;
       flex-wrap: wrap;
       margin-top: 2rem;
+      .gpt3__features-container__feature {
+        display: unset;
+        flex: 1;
+        flex-direction: column;
+        margin: 1rem;
+        width: 210px;
+        &-text {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+    .gpt3__features-container__feature {
+      &-title {
+        h1 {
+          font-size: 1.5rem;
+          line-height: 4.6875rem;
+        }
+      }
     }
   }
 }
