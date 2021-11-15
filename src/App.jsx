@@ -4,7 +4,7 @@ import {
   Features,
   Footer,
   Header,
-  Possiblity,
+  Possibility,
   WhatGPT3,
 } from './containers';
 import './App.scss';
@@ -19,7 +19,7 @@ const App = () => {
       <Brand />
       <WhatGPT3 />
       <Features />
-      <Possiblity />
+      <Possibility />
       <CTA />
       <Blog />
       <Footer />
