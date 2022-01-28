@@ -2,7 +2,7 @@
 
 A fake open source AI web site mock.
 
-[DEMO](pensive-booth-c90b5d)
+[DEMO](https://pensive-booth-c90b5d.netlify.app/)
 
 ![GPT 3](https://res.cloudinary.com/coffmanjrp-dev/image/upload/v1643330840/coffmanjrp.io/gpt_3_8ef19ef53e.png)
 
